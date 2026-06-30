@@ -1,0 +1,9 @@
+# Dry-run demo uses the Python STANDARD LIBRARY ONLY.
+#   python run_demo.py        # no install, no API key, no network
+#
+# For REAL mode (uncomment the provider block in agentworld/llm.py), install
+# exactly ONE provider SDK:
+#
+# anthropic>=0.40          # Claude  (recommended: prompt caching for cheap personas)
+# openai>=1.40             # GPT
+# google-generativeai>=0.8 # Gemini
